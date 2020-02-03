@@ -1,0 +1,8 @@
+data/Shots
+__pycache__
+.ipynb_checkpoints
+.DS_Store
+data/Shots
+data/df_plot_mean.csv
+data/df_shots.csv
+data/df_stats.csv
