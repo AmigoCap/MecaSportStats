@@ -51,7 +51,7 @@ Let’s analyse a Klay Thompson catch-and-shoot shot where he has to free himsel
 
 ## Data
 
-The dataset we use is derived from ***Stats*** company data and *SportsVU* technology. These are the 632 men's basketball games in the NBA during 2015-2016 season. For each match we have the movement data for the ball and players taken 25 times per second and stored in the form _JavaScript Object Notation_ (JSON). You can download the data from [this GitHub repository](). The following figure shows the general structure of the data:  
+The dataset we use is derived from ***Stats*** company data and *SportsVU* technology. These are the 632 men's basketball games in the NBA during 2015-2016 season. For each match we have the movement data for the ball and players taken 25 times per second and stored in the form _JavaScript Object Notation_ (JSON). You can download the data from [this GitHub repository](https://github.com/neilmj/BasketballData/tree/master/2016.NBA.Raw.SportVU.Game.Logs). The following figure shows the general structure of the data:  
 
 ![dataschema](https://github.com/AmigoCap/MecaSportStats/blob/master/images/data.jpg "data schema")
 
