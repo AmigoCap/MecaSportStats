@@ -24,17 +24,21 @@ By calculating the evolution of 3-point shooters' free space before the shot we�
 * Catch-and-shoot 1 : the shooter is already free for a long time (usually from corners).
 * Catch-and-shoot 2 : the shooter has to move to free himself to receive the ball  
 
+![free space](https://github.com/AmigoCap/MecaSportStats/blob/master/images/github_free_space.png "free space")
+
 3. **Do players adjust their release time (delay between catching the ball and releasing it) to the free space they have at catch time ?**
 
 Korver does not seem to adapt his release time to the free space he has at catch time, while Matthews, Nowitzki or Thompson clearly take more time if they are more free when they catch the ball.
 
-4. Analysis of a Klay Thompson catch-and-shoot shot
+![individual behavior](https://github.com/AmigoCap/MecaSportStats/blob/master/images/t_recep_release.jpg "individual behavior")
 
-An animated version of this analysis is available : https://amigocap.github.io/MecaSportStats/video.mp4
+4. Analysis of a Klay Thompson catch-and-shoot shot
 
 Let’s analyse a Klay Thompson catch-and-shoot shot where he has to free himself from his defender to be able to receive the ball. 
 
+![Klay](https://github.com/AmigoCap/MecaSportStats/blob/master/images/github_Thompson.png "Klay Thompson")
 
+An animated version of this analysis is available : https://amigocap.github.io/MecaSportStats/video.mp4
 
 ### Code and details
 
@@ -47,6 +51,7 @@ Let’s analyse a Klay Thompson catch-and-shoot shot where he has to free himsel
 ## Data
 
 The dataset we use is derived from ***Stats*** company data and *SportsVU* technology. These are the 632 men's basketball games in the NBA during 2015-2016 season. For each match we have the movement data for the ball and players taken 25 times per second and stored in the form _JavaScript Object Notation_ (JSON). You can download the data from [this GitHub repository](). The following figure shows the general structure of the data:  
+
 ![dataschema](https://github.com/AmigoCap/MecaSportStats/blob/master/images/data.jpg "data schema")
 
 ## Authors
