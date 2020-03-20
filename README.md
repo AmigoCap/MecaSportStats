@@ -6,7 +6,8 @@ The main objective of this project is to use space occupation models to temporal
 ### Publication
 
 **Article** : http://www.sloansportsconference.com/wp-content/uploads/2020/02/Rolland_characterization_of_Space_and_Time-Dependece_of_3-Point_Shots_in_Basketball.pdf
-**MIT Sloan Sports Analytics Conference 2020 Poster** : 
+
+**MIT Sloan Sports Analytics Conference 2020 Poster** : https://github.com/AmigoCap/MecaSportStats/blob/master/MIT_Sloan_sports_Analytics_Conference_Poster.pdf 
 
 ### Abstract and key results
 
@@ -32,13 +33,13 @@ Korver does not seem to adapt his release time to the free space he has at catch
 
 ![individual behavior](https://github.com/AmigoCap/MecaSportStats/blob/master/images/t_recep_release.jpg "individual behavior")
 
-4. Analysis of a Klay Thompson catch-and-shoot shot
+4. **Analysis of a Klay Thompson catch-and-shoot shot**
 
 Let’s analyse a Klay Thompson catch-and-shoot shot where he has to free himself from his defender to be able to receive the ball. 
 
-![Klay](https://github.com/AmigoCap/MecaSportStats/blob/master/images/github_Thompson.png "Klay Thompson")
+![Klay](https://github.com/AmigoCap/MecaSportStats/blob/master/images/github_thompson.png "Klay Thompson")
 
-An animated version of this analysis is available : https://amigocap.github.io/MecaSportStats/video.mp4
+[Animation and analysis of a Klay Thompson catch-and-shoot shot](https://amigocap.github.io/MecaSportStats/video.mp4)
 
 ### Code and details
 
@@ -46,7 +47,7 @@ An animated version of this analysis is available : https://amigocap.github.io/M
 * [2_time_calculation](https://nbviewer.jupyter.org/github/AmigoCap/MecaSportStats/blob/master/2_Time_calculation.ipynb) where we detail dynamic motion model and how to calcul time needed for a player to go from a point a to b with a given initial velocity.
 * [3_Comparison_of_ways_to_quantify_free_space](https://nbviewer.jupyter.org/github/AmigoCap/MecaSportStats/blob/master/3_Comparison_of_ways_to_quantify_free_space.ipynb) in which the comparison of occupancy calculations is taken further and in which a new way to quantify how "free" a player is is introduced.
 * [4_Free_space_and_3-points_efficiency](https://nbviewer.jupyter.org/github/AmigoCap/MecaSportStats/blob/master/4_Free_space_and_3-points_efficiency.ipynb) in which we focus on 3-points shot and the link between efficiency and free-space.
-* Animation and analysis of a Klay Thompson catch-and-shoot shot : https://amigocap.github.io/MecaSportStats/video.mp4 
+* [Animation and analysis of a Klay Thompson catch-and-shoot shot](https://amigocap.github.io/MecaSportStats/video.mp4)
 
 ## Data
 
