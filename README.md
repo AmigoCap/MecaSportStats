@@ -15,7 +15,7 @@ Understanding characteristics of 3-point shots is paramount for modern basketbal
 1. **Space occupation models**
 We developped two space occupation models : a static one, i.e. only considering players' position, and a dynamic one including players' velocity and direction. By calculating space occupation for each point of the court we were able to determine occupation maps.
 
-![dataschema](https://github.com/AmigoCap/MecaSportStats/blob/master/images/github_occupation_maps "data schema")
+![space occuaption maps](https://github.com/AmigoCap/MecaSportStats/blob/master/images/github_occupation_maps.png "space occuaption maps")
 
 2. **Free space evolution before 3-point shots**
 By calculating the evolution of 3-point shooters' free space before the shot we’ve highlighted 3 behaviors :
@@ -61,14 +61,14 @@ The dataset we use is derived from ***Stats*** company data and *SportsVU* techn
 If you find this work useful, please consider using the follwing citing template:
 
     @inproceedings{rolland:hal-02482706,
-  TITLE = {{Characterization of Space and Time-Dependence of 3-Point Shots in Basketball}},
-  AUTHOR = {Gabin Rolland, Romain Vuillemot, Wouter Bos, Nathan Rivière},
-  URL = {https://hal.archives-ouvertes.fr/hal-02482706},
-  BOOKTITLE = {{MIT Sloan Sports Analytics Conference}},
-  ADDRESS = {Boston, United States},
-  YEAR = {2020},
-  MONTH = Mar,
-  PDF = {https://hal.archives-ouvertes.fr/hal-02482706/file/characterization_of_Space_and_Time-Dependece_of_3-Point_Shots_in_Basketball.pdf},
-  HAL_ID = {hal-02482706},
-  HAL_VERSION = {v1},
-}
+        TITLE = {Characterization of Space and Time-Dependence of 3-Point Shots in Basketball},
+        AUTHOR = {Gabin Rolland, Romain Vuillemot, Wouter Bos, Nathan Rivière},
+        URL = {https://hal.archives-ouvertes.fr/hal-02482706},
+        BOOKTITLE = {{MIT Sloan Sports Analytics Conference}},
+        ADDRESS = {Boston, United States},
+        YEAR = {2020},
+        MONTH = Mar,
+        PDF = {https://hal.archives-ouvertes.fr/hal-02482706/file/characterization_of_Space_and_Time-Dependece_of_3-Point_Shots_in_Basketball.pdf},
+        HAL_ID = {hal-02482706},
+        HAL_VERSION = {v1},
+        }
